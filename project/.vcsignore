@@ -1,0 +1,4 @@
+lib
+.env
+*.env.*
+test/hidden.txt 

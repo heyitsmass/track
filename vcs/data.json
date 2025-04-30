@@ -1,0 +1,22 @@
+{
+	"paths": [
+		{
+			"root": ".vcs/objects",
+			"description": "The heart of the content-addressable storage. This stores all core data objects (blobs, trees, commits)."
+		},
+		{
+			"root": ".vcs/refs/stash",
+			"description": "A single place to store references to stash commits. Similar to objects/ but for stash."
+		},
+		{
+			"root": ".vcs/refs/latest",
+			"description": "A file keeping a reference to the latest stash. This allows us to keep a stack reference for the stash",
+			"is_file": true
+		},
+		{
+			"root": ".vcs/index",
+			"description": "This file acts as the staging area. It's a crucial intermediate step between the working directy and the reposity history. It lists files and their corresponding blob hashes that are staged for the next commit",
+			"is_file": true
+		}
+	]
+}
