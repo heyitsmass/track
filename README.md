@@ -1,6 +1,5 @@
-# Table of Contents
+## Track - A simple version control system for frontend tooling
 
-- [Table of Contents](#table-of-contents)
 - [Repository Structure](#repository-structure)
     - [`objects/`](#objects)
     - [`refs/`](#refs)
